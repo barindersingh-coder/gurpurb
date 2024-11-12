@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurpurb Wishes</title>
+    <link rel="stylesheet" href="sonu.css">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=YOUR_API_KEY"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Gurpurb of Shri Guru Nanak Dev Ji</h1>
+        <p>Enter your name to receive blessings on this auspicious occasion:</p>
+        
+        <form id="wishForm">
+            <input type="text" id="nameInput" placeholder="Your Name" required>
+            <button type="button" onclick="makeWish()">Get Your Wish</button>
+        </form>
+        
+        <p id="greetingMessage"></p>
+        <audio id="blessingSong" src="ma.mp3" preload="auto"></audio>
+    </div>
+
+    <!-- Dynamic Image Section -->
+    <div class="image-gallery">
+        <img src="g1.jpeg" alt="Shri Guru Nanak Dev Ji" class="dynamic-image">
+        <img src="g2.jpeg" alt="Shri Guru Nanak Dev Ji" class="dynamic-image">
+        <img src="g3.jpeg" alt="Shri Guru Nanak Dev Ji" class="dynamic-image">
+        <img src="g4.jpeg" alt="Shri Guru Nanak Dev Ji" class="dynamic-image">
+    </div>
+
+    <script src="bapu.js"></script>
+   
+</body>
+</html>
